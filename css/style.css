@@ -16,7 +16,7 @@ h1{
  p{
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.5;
-    letter-spacing: 1.2px;
+    /* letter-spacing: 1.2px; */
     text-align: justify;
     font-weight: 600;
     color: dimgray;
@@ -97,6 +97,9 @@ h1{
     padding: 10px 24px;
     border-radius: 30px;
 }
+.content-1 p{
+    letter-spacing: 1.2px; 
+}
 
 .content-2{
     padding-top: 30px;
@@ -148,19 +151,14 @@ h1{
 .para{
     width: 85%;
 }
-/* .para p{
-    font-family: 'Josefin Sans', sans-serif;
-    line-height: 1.5;
-    letter-spacing: 1.2px;
-    text-align: justify;
-    font-weight: 600;
-    color: dimgray;
-    padding-bottom: 20px;
-} */
-
+.para p{
+    letter-spacing: 1.2px; 
+}
 /* section part 2 ends */
 
-
+.this{
+    
+}
 /* section part 3 starts */
 .part-3{
     margin-top: 60px;
@@ -175,10 +173,27 @@ h1{
 }
 
 .card-1{
-
+    margin-right: 2%;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 40px dimgray;
+    border-radius: 10px;
+    border-right: 6px solid rgb(27 167 161);
+    border-bottom: 6px solid rgb(84 225 238);
 }
-.card-img{
-
+.card-img img{
+    width: 100%;
+}
+.para-card{
+    /* padding: 0 30px; */
 }
 
 /* section part 3 ends */
+
+/* section part 4 starts */
+
+.part-4{
+    padding: 0 40px;
+}
+
+
+/* section part 4 ends */
