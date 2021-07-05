@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200&family=Festive&family=Yomogi&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Righteous&display=swap');
 body{
     margin: 0;
     padding: 0;
 }
-/* header starts */
+
+h1{
+    line-height: 0.5;
+    font-family: 'Righteous', cursive;
+    font-size: 55px;
+    font-weight: lighter;
+    color: slategray;
+ }
+
+ p{
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    font-weight: 600;
+    color: dimgray;
+    padding-bottom: 20px;
+}
+
+/* header section starts */
 .clr-1{
-    height: 100px;
+    height: 80px;
     width: auto;
     background-color: tomato;
 }
@@ -17,11 +33,15 @@ body{
     display: flex;
     flex-wrap: nowrap;
 }
-.logo{
+.default_half{
     width: 50%;
-    padding-left: 10%;
-    padding-top: 20px;
+    margin:0 5%;
 }
+.default_third{
+    width: 33.33%;
+    margin:0 5%;
+}
+
 .logo span{
     font-size: 40px;
     font-family: festive;
@@ -34,84 +54,131 @@ body{
     color: rgb(85, 14, 6);;
 }
 .menu{
-    width: 50%;
-    padding-top: 3%;
+    padding-top: 20px;
 }
 .menu a{
     justify-content: space-between;
     text-decoration: none;
     display: inline;
-    padding-left: 45px;
+    
+    padding-left: 30px;
     color: brown;
     font-size: 20px;
 }
 .menu a:hover{
     color: ghostwhite;
 }
-/* header ends */
+/* header section ends */
 
-
-/* section part 0 starts */
-.intro_bio {
-    padding: 40px 20px 0 0;
-    width: 50%;
+/* section part 1 starts */
+.part-1{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/shapes/Frame 59.jpg");
 }
-.intro_pic {
-    padding: 40px 20px 0 0;
-    width: 50%;
+.content-1{
+    padding-top: 30px;
+    padding-right: 40px;
 }
 
-.intro_bio a {
+.content-1 h1 span{
+   color: salmon;
+}
+
+.content-1 a{
     text-decoration: none;
-}
-
-.intro_bio a:hover {
-    font-style: normal;
-    cursor: pointer;
-    color: #057067;
-    font-style: italic;
-}
-
-.linkedin {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    background-image: linear-gradient(to right, rgb(233, 179, 79), rgb(238, 107, 84));
+    background-image: linear-gradient(to right, tomato,rgb(243, 81, 81),tomato);
     color: white;
-    padding: 10px 28px;
-    border-radius: 10px;
+    padding: 10px 24px;
+    border-radius: 30px;
 }
 
-.linkedin:hover {
-    font-style: oblique;
-    color: black;
+.content-2{
+    padding-top: 30px;
+}
+.content-2 img{
+    width: 90%;
 }
 
-.intro_pic img {
-    margin-left: 20%;
-    width: 75%;
-}
+/* section part 1 ends */
 
-.intro_bio h1 {
-    font-size: 42px;
-    font-weight: bolder;
-}
+/* section part 2 starts */
 
-.intro_bio h2 {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
+.part-2{
+    margin-top: 60px;
+    margin-bottom: 60px;
 
-.hide-in {
-    display: none;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/shapes/Frame 58.jpg");
 }
+.about-1{
 
-.intro_bio h2:hover+.hide-in {
-    display: block;
-    color: brown;
 }
+.about-1 img{
 
-.intro_bio p {
-    color: dimgray;
+}
+.about-2{
+    margin-top: 10%;
+}
+/* .about-2 h1{
+    line-height: 0.5;
+   font-family: 'Righteous', cursive;
+   font-size: 55px;
+   font-weight: lighter;
+   color: slategray;
+} */
+.about-2 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(to right, tomato,rgb(243, 81, 81),tomato);
+    color: white;
+    padding: 10px 24px;
+    border-radius: 30px;
+}
+.para{
+    width: 85%;
+}
+/* .para p{
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
     text-align: justify;
+    font-weight: 600;
+    color: dimgray;
+    padding-bottom: 20px;
+} */
+
+/* section part 2 ends */
+
+
+/* section part 3 starts */
+.part-3{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
-/* section part 0 ends */
+.part-3 h2{
+    line-height: 0.5;
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    font-weight: lighter;
+    color: slategray;
+}
+
+.card-1{
+
+}
+.card-img{
+
+}
+
+/* section part 3 ends */
