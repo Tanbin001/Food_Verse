@@ -5,14 +5,6 @@ body{
     padding: 0;
 }
 
-/* h1{
-    line-height: 0.5;
-    font-family: 'Righteous', cursive;
-    font-size: 55px;
-    font-weight: lighter;
-    color: slategray;
- } */
-
  p{
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.5;
@@ -21,6 +13,7 @@ body{
     color: dimgray;
     padding-bottom: 20px;
 }
+
 
 /* header section starts */
 .clr-1{
@@ -69,6 +62,7 @@ body{
 }
 /* header section ends */
 
+
 /* section part 1 starts */
 .part-1{
     height: 500px;
@@ -82,7 +76,6 @@ body{
 }
 
 .content-1 h1{
-    /* line-height: 0.5; */
     font-family: 'Righteous', cursive;
     font-size: 55px;
     font-weight: lighter;
@@ -118,11 +111,10 @@ body{
 .content-2 img{
     width: 90%;
 }
-
 /* section part 1 ends */
 
-/* section part 2 starts */
 
+/* section part 2 starts */
 .part-2{
     height: 500px;
     background-size: cover;
@@ -167,9 +159,7 @@ body{
 }
 /* section part 2 ends */
 
-.this{
-    
-}
+
 /* section part 3 starts */
 .part-3{
     margin-top: 60px;
@@ -181,12 +171,12 @@ body{
     font-size: 45px;
     font-weight: lighter;
     color: slategray;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .card-1{
     margin-right: 2%;
-    padding: 20px 20px;
+    padding: 15px 20px;
     box-shadow: 10px 10px 40px dimgray;
     border-radius: 25px;
     border-right: 6px solid rgb(239 140 140);
@@ -194,15 +184,16 @@ body{
 }
 .card-img img{
     width: 100%;
+    height: 240px;
+    border-radius: 20px;
 }
 .para-card h3{
     padding: 20px 0;
 }
-
 /* section part 3 ends */
 
-/* section part 4 starts */
 
+/* section part 4 starts */
 .part-4{
     margin-top: 8%;
     margin-bottom: 10%;
@@ -237,9 +228,8 @@ body{
 .follow p{
     text-align: center;
 }
-
-
 /* section part 4 ends */
+
 
 /* section part 5 starts */
 .part-5{
@@ -263,39 +253,39 @@ body{
     margin-left: 4%;
     cursor: pointer;
     padding-top: 0;
-    /* box-shadow: 10px 10px 40px dimgray; */
-    border-radius: 10px;
-
+    border-radius: 20px;
 }
 .col-4 img:hover{
     box-shadow: 10px 10px 50px rgb(87, 87, 87);
 }
 /* section part 5 ends */
 
+
 /* footer part  starts*/
 footer{
     height: 200px;
-    background-image: linear-gradient(to left, rgb(241, 91, 91), rgb(236, 79, 79));
+    color: white !important;
+    /* background-image: linear-gradient(to left, rgb(241, 91, 91), rgb(236, 79, 79)); */
+    background-color: rgb(12, 12, 12);
 }
 .foot-part p{
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.5;
     letter-spacing: 1.2px;
     padding-top: 40px;
-    padding-left: 40px;
-    /* text-align: center; */
-    font-weight: 600;
-    color:black;
+    text-align: center;
+    color: white;
     font-weight: bold;
     font-size: 15px;
-    /* padding-bottom: 20px; */
 }
 .foot-part a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 249, 249);
 }
-.foot-part span{
+.name{
     display: none;
+    position:absolute;
+    padding-left: 43%;
 }
 .foot-part a:hover+span{
     display: block;
@@ -305,10 +295,15 @@ footer{
     text-decoration: none;
     color: burlywood;
 }
-#promo{
+footer h4{
     font-size: 30px;
-    display: block;
-    padding-left: 25px;
+   font-family: 'Courier New', Courier, monospace;
+}
+#promo{
+   display: inline-block;
+   color: tomato;
+   font-size: 40px;
+   font-family: 'Courier New', Courier, monospace;
 }
 address{
     padding-top: 25px;
