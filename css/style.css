@@ -5,18 +5,17 @@ body{
     padding: 0;
 }
 
-h1{
+/* h1{
     line-height: 0.5;
     font-family: 'Righteous', cursive;
     font-size: 55px;
     font-weight: lighter;
     color: slategray;
- }
+ } */
 
  p{
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.5;
-    /* letter-spacing: 1.2px; */
     text-align: justify;
     font-weight: 600;
     color: dimgray;
@@ -82,6 +81,14 @@ h1{
     padding-right: 40px;
 }
 
+.content-1 h1{
+    /* line-height: 0.5; */
+    font-family: 'Righteous', cursive;
+    font-size: 55px;
+    font-weight: lighter;
+    color: slategray;
+ }
+
 .content-1 h1 span{
    color: salmon;
 }
@@ -113,9 +120,6 @@ h1{
 /* section part 2 starts */
 
 .part-2{
-    /* margin-top: 60px;
-    margin-bottom: 60px; */
-
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,13 +134,12 @@ h1{
 .about-2{
     margin-top: 10%;
 }
-/* .about-2 h1{
-    line-height: 0.5;
+.about-2 h1{
    font-family: 'Righteous', cursive;
    font-size: 55px;
    font-weight: lighter;
    color: slategray;
-} */
+} 
 .about-2 a{
     text-decoration: none;
     font-size: 16px;
@@ -170,6 +173,7 @@ h1{
     font-size: 45px;
     font-weight: lighter;
     color: slategray;
+    padding-bottom: 20px;
 }
 
 .card-1{
@@ -183,8 +187,8 @@ h1{
 .card-img img{
     width: 100%;
 }
-.para-card{
-    /* padding: 0 30px; */
+.para-card h3{
+    padding: 20px 0;
 }
 
 /* section part 3 ends */
@@ -192,15 +196,24 @@ h1{
 /* section part 4 starts */
 
 .part-4{
-    margin-top: 10%;
+    margin-top: 8%;
     margin-bottom: 10%;
+}
+.part-4 h2{
+    line-height: 0.5;
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    font-weight: lighter;
+    color: slategray;
+    padding-bottom: 20px;
 }
 .the_forth{
     text-align: center;
 
     margin-right: 2%;
     margin-left: 4%;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    padding-top: 35px;
     box-shadow: 10px 10px 40px dimgray;
     border-radius: 10px;
     /* border-right: 6px solid rgb(27 167 161);
@@ -217,11 +230,43 @@ h1{
     text-align: center;
 }
 
+
 /* section part 4 ends */
+
+/* section part 5 starts */
+.part-5{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.part-5 h2{
+    line-height: 0.5;
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    font-weight: lighter;
+    color: slategray;
+    padding-bottom: 20px;
+}
+
+.col-4 img{
+    margin: 10px 0;
+    height: 250px;
+    width: 350px;
+    margin-right: 2%;
+    margin-left: 4%;
+    cursor: pointer;
+    padding-top: 0;
+    /* box-shadow: 10px 10px 40px dimgray; */
+    border-radius: 10px;
+
+}
+.col-4 img:hover{
+    box-shadow: 10px 10px 50px rgb(87, 87, 87);
+}
+/* section part 5 ends */
 
 /* footer part  starts*/
 footer{
-    height: 110px;
+    height: 200px;
     background-image: linear-gradient(to left, rgb(241, 91, 91), rgb(236, 79, 79));
 }
 .foot-part p{
@@ -229,7 +274,8 @@ footer{
     line-height: 1.5;
     letter-spacing: 1.2px;
     padding-top: 40px;
-    text-align: center;
+    padding-left: 40px;
+    /* text-align: center; */
     font-weight: 600;
     color:black;
     font-weight: bold;
@@ -245,5 +291,19 @@ footer{
 }
 .foot-part a:hover+span{
     display: block;
+    text-decoration: none;
+}
+.foot-part a:hover{
+    text-decoration: none;
+    color: burlywood;
+}
+#promo{
+    font-size: 30px;
+    display: block;
+    padding-left: 25px;
+}
+address{
+    padding-top: 25px;
+    padding-left: 40px;
 }
 /* footer part  ends*/
