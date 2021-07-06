@@ -104,6 +104,10 @@ body{
     padding: 10px 24px;
     border-radius: 30px;
 }
+.content-1 a:hover{
+    text-decoration: none;
+    color: wheat;
+}
 .content-1 p{
     letter-spacing: 1.2px; 
 }
@@ -150,6 +154,10 @@ body{
     color: white;
     padding: 10px 24px;
     border-radius: 30px;
+}
+.about-2 a:hover{
+    text-decoration: none;
+    color: wheat;
 }
 .para{
     width: 85%;
